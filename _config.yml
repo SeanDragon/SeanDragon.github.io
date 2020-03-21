@@ -100,7 +100,9 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/SeanDragon/SeanDragon.github.io.git
+  repo: git@github.com:SeanDragon/SeanDragon.github.io.git
+  branch: master
+
 search:
   path: search.xml
   field: post
