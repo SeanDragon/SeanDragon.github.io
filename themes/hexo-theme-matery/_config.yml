@@ -40,9 +40,9 @@ menu:
 # 站点运行开始时间.
 time:
   enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  year: 2020 # 年份
+  month: 03 # 月份
+  date: 21 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -72,7 +72,7 @@ music:
   enable: true
   title: #非吸底模式有效
     enable: true
-    show: 音乐是灵魂的摆动
+    show: BGM
   autoHide: false    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: song    #require song, playlist, album, search, artist
