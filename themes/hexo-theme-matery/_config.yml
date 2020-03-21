@@ -16,9 +16,6 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
