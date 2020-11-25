@@ -201,7 +201,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: 全流程工程师
-  introduction: 我从事IT行业，是位90后怪蜀黍，在这无限的世界中U型能找永恒的一个小小过客。
+  introduction: 我从事IT行业，是位90后怪蜀黍，在这无限的世界中幻想能找到永恒的一个小小过客。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -307,7 +307,7 @@ valine:
 githubLink:
   enable: true
   url: https://github.com/SeanDragon
-  title: Follow Me
+  title: 关注我
 
 # The password verification feature of read post. To use this feature,
 # activate the configuration item and write the 'password' key and Cipher in the post's Front-matter.
@@ -505,7 +505,7 @@ icp:
   url: # 备案链接
   text: # 备案信息
 
-# CDN访问加速 
+# CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
 # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
