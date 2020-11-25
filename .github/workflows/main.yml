@@ -30,4 +30,4 @@ jobs:
       - name: 部署hexo
         run: |
           hexo clean
-          hexo g
+          hexo d
