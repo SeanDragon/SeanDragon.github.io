@@ -3,7 +3,7 @@
 name: 自动化编译并发布博客内容
 
 env:
-  GH_REF: github.com/SeanDragon/SeanDragon.github.io.git
+  GH_REF: git@github.com:SeanDragon/SeanDragon.github.io.git
 
 # Controls when the action will run. 
 on:
@@ -34,8 +34,6 @@ jobs:
       - run: |
           cd ./public
           git init
-          git config user.name "SeanDragon"
-          git config user.email "syl8023who@gmail.com"
           git add .
           git commit -a -m "自动构建hexo分支的博客代码"
-          git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+          git push --force --quiet "${GH_REF}" master:master
