@@ -35,5 +35,7 @@ jobs:
           cd ./public
           git init
           git add .
+          git config user.name "SeanDragon"
+          git config user.email "syl8023who@gmail.com"
           git commit -a -m "自动构建hexo分支的博客代码"
           git push --force --quiet "${GH_REF}" master:master
