@@ -10,9 +10,9 @@
     </div>
 </div>
 
-<script src="<%- theme.jsDelivr.url %>/js/search.js"></script>
+<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.search) %>"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc("<%- theme.jsDelivr.url %><%= config.root %>" + "search.xml", 'searchInput', 'searchResult');
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
 });
 </script>
