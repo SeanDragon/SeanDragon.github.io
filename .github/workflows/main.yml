@@ -22,7 +22,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts 
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name "SeanDragon"
           git config --global user.email "syl8023who@gmail.com"
           npm install hexo-cli -g
@@ -30,4 +30,5 @@ jobs:
       - name: 部署hexo
         run: |
           hexo clean
-          hexo d
+          hexo generate
+          hexo deploy
