@@ -52,6 +52,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
