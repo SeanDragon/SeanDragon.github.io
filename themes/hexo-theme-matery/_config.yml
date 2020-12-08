@@ -411,7 +411,7 @@ libs:
     gitalk: /libs/gitalk/gitalk.css
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
-    prism: /libs/prism/prism.css
+    prism: https://unpkg.com/dracula-prism/css/dracula-prism.css
   js:
     matery: /js/matery.js
     jquery: /libs/jquery/jquery.min.js
